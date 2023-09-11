@@ -22,7 +22,7 @@ This view is dependent on having or historically having an RDS database instance
 - {{%expand "Click here - if you have both Savings Plans and Reserved Instances" %}}
 
 Modify the following SQL query for View1: 
-- Update line 61 replace (database).(tablename) with your CUR database and table name  
+- Update line 70 replace (database).(tablename) with your CUR database and table name  
 
 		CREATE OR REPLACE VIEW kpi_instance_all AS 
 		WITH 
