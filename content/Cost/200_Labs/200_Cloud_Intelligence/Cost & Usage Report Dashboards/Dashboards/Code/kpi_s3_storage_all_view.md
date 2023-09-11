@@ -225,7 +225,8 @@ Cost Allocation tags can be added to any views. We recommend adding while creati
 {{% /notice %}}
 
 {{%expand "Click here - for an example with a cost allocation tags" %}}
-Example uses the tag **resource_tags_user_project**
+Example uses the tag **resource_tags_user_project**. Replace this tag with your preferred tag on lines 20, 71 and 132
+Update line 43 replace (database).(tablename) with your CUR database and table name
 
 		 CREATE OR REPLACE VIEW kpi_s3_storage_all AS 
 		 -- Step 1: Enter S3 standard savings savings assumption. Default is set to 0.3 for 30% savings 
