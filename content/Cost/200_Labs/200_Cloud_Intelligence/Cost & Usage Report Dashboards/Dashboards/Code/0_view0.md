@@ -38,7 +38,7 @@ Modify the following SQL query for View0 - Account Map:
 ### Option 2: Account Map CSV file using your existing AWS account mapping data
 Many organizations already maintain their account mapping outside of AWS. You can leverage your existing mapping data by creating a csv file with your account mapping data including any additional organization attributes. 
 
-- {{%expand "Click here - to create using an your own account mapping csv and Amazon S3" %}}
+- {{%expand "Click here - to create using your own account mapping csv and Amazon S3" %}}
 
 #### Create your account_map csv file
 This example will show you how to create using a sample account_map csv file
